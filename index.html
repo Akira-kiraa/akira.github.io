@@ -1,23 +1,118 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<style type="text/css">
-		p{
-			font: 100%/1.5 sans-serif;
-			max-width: 33em;
-		}
-	</style>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title></title>
+<meta charset="utf-8">
+
+<!-- Sets viewport to the device screen size -->
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+<!--Link an external style sheet-->
+<link href="css/styles.css" rel="stylesheet">
+<style> 
+	main {
+		max-width: 1500px; 
+	}
+	section {
+		max-width: 1500px; 
+		margin: 100px; 
+		padding: 0 0 0 100px; 
+	}
+	header h1{
+		font-variant: small-caps;
+		font-size: xx-large;
+	}
+	header h3, h2{
+		font-family: "Microsoft JhengHei";
+	}
+	body {
+		background: cornsilk; 
+		color: burlywood;
+	}
+	body a {
+		color: black;
+	}
+	article h2 {
+		font-family: "times", serif;
+		font-size: large;
+		font-style: normal;
+	}
+	img {
+		width: 100%
+	}
+	figure {
+		width: 100%; 
+		margin: auto;
+	}
+	table {
+		font-family: "times", serif;
+		font-size: 400;
+		font-style: normal;
+		text-align: left;
+	}
+/* Overrides desktop style when viewport is less than 600px (for smart phones) */
+@media only screen and (max-width: 3000px) {
+	article {
+		margin: 0 0 0 0;
+	}
+	#selfie {
+		margin: 0 0 0 400px;
+	}
+	footer img{
+		width: 10%;
+	}
+}
+@media only screen and (max-width: 1300px) {
+    #selfie {
+    	width: 100%;
+    	margin: 180px 0 30px 0;
+    }
+    section {
+		max-width: 500px; 
+		margin: 10px auto; 
+		padding: 10px 20px; 
+	}
+	article {
+		margin: 400px 0 0 0;
+	}
+	footer img{
+		width: 25%;
+	}
+}
+@media only screen and (max-width: 600px) {
+	article {
+		margin: 250px 0 0 0;
+	}
+	footer img{
+		width: 30%;
+	}
+}
+</style>
 </head>
+<!-- body -->
 <body>
-	<p>この詩はあと八十字
-
-	<p>这首诗就只剩八十字了
-
-	<p>人生の価値は、終わり方だろうから
-
-	<p>人生的价值，大概也在于如何收尾吧？
-</body>
-</html>
+<main>
+<section>
+	<header>
+		<h1>The Library at the Edge of Worlds</h1>
+		<h2>Keep Silence</h2>
+		<h3>*all books belong to the librarian*</h3>
+	</header>	
+	<article>
+		<p></p><table>
+			<tbody><tr><th>Number</th><th>Name</th><th style="text-align: right;">Percent</th></tr>
+			<tr><td>01</td><td><a href="http://b.parsons.edu/~wangj514/parsons/first_assignment/website_analysis.html">Emanuel Lopez</a></td></tr>
+			<tr><td>02</td><td><a href="http://b.parsons.edu/~wangj514/parsons/second_assignment/7_steps.html">Saga Bedley</a></td></tr>
+			<tr><td>03</td><td><a href="http://b.parsons.edu/~wangj514/parsons/fifth_assignment/responsive_mockup.html">Heinrich Amastasia</a></td></tr>
+			<tr><td>04</td><td><a href="http://b.parsons.edu/~wangj514/parsons/third_assignment/Week 3 Selections.html">Salieri Ravus</a></td></tr>
+			<tr><td>05</td><td><a href="http://b.parsons.edu/~wangj514/parsons/fourth_assignment/quiz_2.html">Ishmale Aldebaran</a> </td></tr>
+			<tr><td>06</td><td>Aether Asteria</td></tr>
+			<tr><td>07</td><td>Lux Asteria</td></tr>
+			<tr><td>08</td><td>Julia Federico</td></tr>
+			<tr><td>09</td><td>Vitale Agrigento</td></tr>
+			<tr><td>10</td><td>L</td></tr>
+			</tbody></table>
+	</article>	
+</section>
+</main>
+	
+</body></html>
